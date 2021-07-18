@@ -1,0 +1,64 @@
+<!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Sales Performance Visualized in Power BI</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<a href="index.html" class="title">Zachary Tenn</a>
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="powerbi1.html" class="active">Power BI Work Sample</a></li>
+					</ul>
+				</nav>
+			</header>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<section id="main" class="wrapper">
+						<div class="inner">
+							<h1 class="major">Sales Performance Visualized in Power BI</h1>
+							<span class="image fit"><img src="images/pic08.png" alt="" /></span>
+							<p>Directors responsible for sales performance must make macro strategic decisions to achieve departmental success. Visibility of ongoing and future sales performance are essential in this effort. I have created a sample dashboard to preview the benefits of applying advanced analytics.</p>
+							<p>For the purposes of this demo we are primarily interested in the four tiles in the center of our report. Opportunity value is segmented by sales rep to track their contribution to the total book of business. Expected revenue is opportunity value multiplied by the probability of reaching closed won status. Beneath that we have that same book of business segmented by stage and forecast to track the pipeline's progression. It is important to note that like our Tableau report, all tiles are related and therefore enable cross filtering. For example, we can highlight test rep2, hold control and click on the qualification and prospecting stages to see a total pipeline value of $1.28m from 231 opportunities that can be seen on the left-hand list view.</p>
+							<p>I built the report to reflect a realistic workflow. To do this I imported a faux sales data set to my personal Salesforce instance and then passed it through to Power BI to be visualized. Specifically, we pass through the Salesforce data on the object level to preserve the data's relationships from the CRM which also required slight modification using Power Query.</p>
+							<p>View the full report available on my public Power BI workspace <a href="https://app.powerbi.com/view?r=eyJrIjoiZjhiNDYwNGYtNjgyYy00YTU3LTgzNDktZTg4MWQwZGFiNWM2IiwidCI6ImEzMTkzOGI5LTlhNGItNDU4My05MDAxLWMyZjgzMGExMzJjOSIsImMiOjF9">here</a>.</p>
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer" class="wrapper alt">
+				<div class="inner">
+					<ul class="menu">
+						<li>&copy; Zachary Tenn. All rights reserved.</li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
